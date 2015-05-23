@@ -1,0 +1,18 @@
+<template name="chatPage">
+    <div class="container">
+        {{city}}
+        {{author}}
+        <div class="message">
+            {{#each texts}}
+                <div class="message">
+                    <div class="bubble">
+                        <div class="content">
+                            {{time}} {{text}}
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+        <a href="{{pathFor 'updateChatForm'}}">Update</a>
+    </div>
+</template>

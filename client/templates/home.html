@@ -1,0 +1,12 @@
+<template name="home">
+    <div class="container">
+        <div class="section">
+            <h3>Die besten Chats</h3>
+            <ul>
+            {{#each chats}}
+                {{> chatItem}}
+            {{/each}}
+            </ul>
+        </div>
+    </div>
+</template>

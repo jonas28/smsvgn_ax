@@ -1,0 +1,12 @@
+body {
+    background: #eee;
+    color: #666666; }
+
+#main {
+    position: relative;
+}
+.page {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
